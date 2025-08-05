@@ -7,7 +7,7 @@ from telegram.ext import ApplicationBuilder, CommandHandler, MessageHandler, fil
 import os
 
 # CONFIGURACIÓN PRINCIPAL
-TOKEN = os.getenv("8356731546:AAGXTbhwfcmdLJRpHpNcwZn3LD17rrN3chg")  # Token desde variables de entorno
+TOKEN = os.getenv("token")  # Token desde variables de entorno
 CHAT_ID = None  # Se completará al primer mensaje
 
 # Horarios de recordatorio (hora local)
